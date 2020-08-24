@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPS OL.Plugins", "FPS OL.Plugins.csproj", "{5BA77AA0-CECE-8716-D1CC-4472F7E18755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPS OL", "FPS OL.csproj", "{AC4FDEB4-FC8F-8F9A-081F-DEFBFBB52300}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPS OL.Editor", "FPS OL.Editor.csproj", "{4343B813-2801-FBAE-2BC0-FFBDE92E9EE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BA77AA0-CECE-8716-D1CC-4472F7E18755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA77AA0-CECE-8716-D1CC-4472F7E18755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA77AA0-CECE-8716-D1CC-4472F7E18755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA77AA0-CECE-8716-D1CC-4472F7E18755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC4FDEB4-FC8F-8F9A-081F-DEFBFBB52300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4FDEB4-FC8F-8F9A-081F-DEFBFBB52300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4FDEB4-FC8F-8F9A-081F-DEFBFBB52300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4FDEB4-FC8F-8F9A-081F-DEFBFBB52300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4343B813-2801-FBAE-2BC0-FFBDE92E9EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4343B813-2801-FBAE-2BC0-FFBDE92E9EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4343B813-2801-FBAE-2BC0-FFBDE92E9EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4343B813-2801-FBAE-2BC0-FFBDE92E9EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

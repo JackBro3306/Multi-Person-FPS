@@ -1,0 +1,95 @@
+package LSGameServ.Protobuf;
+
+//Tcp相关（即大厅逻辑相关）
+message GameMessage
+{
+	required bytes type = 1;
+	required bytes data = 2;
+}
+message ReqLogin
+{
+	required string account = 1;
+	required string password = 2;
+}
+message PlayerInfo
+{
+	required string id = 1;
+	required int32 win = 2;
+	required int32 defeat = 3;
+}
+message RoomInfo
+{
+	required int32 playercount= 1;
+	required int32 roomstatus= 2;
+}
+message RoomPlayer
+{
+	required int32 team= 1;
+	required int32 isOwner = 2;
+	required PlayerInfo playerinfo = 3;
+}
+message BattlePlayer{
+	required string id = 1;
+	required int32 team= 2;
+	required int32 swopId = 3;
+	required int32 playerHp = 4;
+}
+message UnitInfo{
+	required float posX = 1;
+	required float posY = 2;
+	required float posZ = 3;
+	required float rotateX = 4;
+	required float rotateY = 5;
+	required float rotateZ = 6;
+	required uint32 moveState= 7;
+	required float input_h = 8;
+	required float input_v = 9;
+	required string id = 10;
+}
+message ShootInfo{
+	required float posX = 1;
+	required float posY = 2;
+	required float posZ = 3;
+	required float rotateX = 4;
+	required float rotateY = 5;
+	required float rotateZ = 6;
+	required string id = 7;
+}
+message HitInfo{
+	required string attId = 1;
+	required int32 damage = 2;
+	optional string defId = 3;
+}
+message BattleScore{
+	required int32 scoreT1 = 1;
+	required int32 scoreT2 = 2;
+}
+
+//Udp相关（即战斗逻辑相关）
+//游戏开始：进入战斗场景后，通知服务器可以开始，服务器收到所有玩家游戏开始协议的时候，开始发送逻辑帧开始战斗
+message BattleCommand{
+	required bytes type = 1;
+	required string userid = 2;
+	required bytes data = 3;
+}
+message ReqGameStart
+{
+	required uint32 userid = 1;
+	required uint32 roomid = 2;
+}
+message ReqStartMove
+{
+	required uint32 userid = 1;
+	required uint32 roomid = 2;
+}
+message ReqChangeDir
+{
+	required uint32 userid = 1;
+	required uint32 roomid = 2;
+	required int32 angle = 3;
+}
+message ReqEndMove
+{
+	required uint32 userid = 1;
+	required uint32 roomid = 2;
+}

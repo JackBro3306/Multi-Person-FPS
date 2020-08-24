@@ -1,0 +1,12 @@
+G:\CSharpWorkSpace\LSGameServ\LSGameServ\obj\Debug\LSGameServ.csprojAssemblyReference.cache
+G:\CSharpWorkSpace\LSGameServ\LSGameServ\obj\Debug\LSGameServ.csproj.CoreCompileInputs.cache
+G:\CSharpWorkSpace\LSGameServ\LSGameServ\bin\Debug\LSGameServ.exe.config
+G:\CSharpWorkSpace\LSGameServ\LSGameServ\bin\Debug\LSGameServ.exe
+G:\CSharpWorkSpace\LSGameServ\LSGameServ\bin\Debug\LSGameServ.pdb
+G:\CSharpWorkSpace\LSGameServ\LSGameServ\bin\Debug\MySql.Data.dll
+G:\CSharpWorkSpace\LSGameServ\LSGameServ\bin\Debug\protobuf-net.dll
+G:\CSharpWorkSpace\LSGameServ\LSGameServ\bin\Debug\Google.Protobuf.dll
+G:\CSharpWorkSpace\LSGameServ\LSGameServ\bin\Debug\MySql.Data.xml
+G:\CSharpWorkSpace\LSGameServ\LSGameServ\obj\Debug\LSGameServ.csproj.CopyComplete
+G:\CSharpWorkSpace\LSGameServ\LSGameServ\obj\Debug\LSGameServ.exe
+G:\CSharpWorkSpace\LSGameServ\LSGameServ\obj\Debug\LSGameServ.pdb

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LSGameServ.DB.DataMgr">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAEAAAAAAAAAAgAAAIAAAEBBBAAAAAAAAYAAAAA=</HashCode>
+      <FileName>DB\DataMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LSGameServ.DB.PlayerData">
+    <Position X="3.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAIAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>DB\PlayerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LSGameServ.DB.PlayerTempData">
+    <Position X="5.75" Y="0.5" Width="2.25" />
+    <NestedTypes>
+      <Enum Name="LSGameServ.DB.PlayerTempData.Status" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DB\PlayerTempData.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAAAAAAAAAAAAAQAAAQAEAAACBAwAIAAAE=</HashCode>
+      <FileName>DB\PlayerTempData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
